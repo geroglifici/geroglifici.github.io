@@ -32,7 +32,7 @@ function translittera(paroleLatine, vecchioTesto, testoEgiziano, soloUltima){
         }
         return ""
       }
-      carattere = carattere.geroglifico;
+      carattere = carattere.hieroglyphics;
       if (carattere.length < 7) {
         return carattere
       }
@@ -107,7 +107,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div style={{color:"white"}}>
-        {String.fromCodePoint(data.M.geroglifico)}
+        {String.fromCodePoint(data.M.hieroglyphics)}
       </div>
       <Grid 
       container 
