@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
-import data from "./traslitterazioni.json"; 
+import data from "./transliteration/index.json"; 
 
 import Grid from '@material-ui/core/Grid';
 

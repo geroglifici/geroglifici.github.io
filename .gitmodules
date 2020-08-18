@@ -1,0 +1,3 @@
+[submodule "src/transliteration"]
+	path = src/transliteration
+	url = git@github.com:stellavaccari/transliteration.git
